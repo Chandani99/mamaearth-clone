@@ -1,0 +1,103 @@
+#center{
+   
+    width: 90%;
+    display: flex;
+    padding-left: 100px;
+    margin: auto;
+    margin-top: 15px;
+    /* */
+}
+#centerLeft{
+    width: 55%;
+    height: 500px;
+    padding-left: 20px;
+    border: 1px solid lightgray; 
+}
+#centerLeft>#instruction{
+    padding-top: 20px;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+#centerLeft>#instruction>#button{
+    width: 130px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #00afef ;
+    background-color: white;
+    color: #00afef;
+    font-size: 15px;
+    cursor: pointer;
+}
+#centerLeft>#instruction>#button:hover{
+    color: white;
+    background-color: #00afef;
+}
+
+#delAddress{
+    width: 99%;
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+#delAddress>div{
+    padding-top:20px ;
+}
+#delAddress>div>.name{
+    width: 48%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#delAddress>div>.contact{
+    width: 48%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#delAddress>div>.pcs{
+    width: 31.5%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#delAddress>div>#address{
+    width: 97.4%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#typeAddress{
+    width: 30%;
+    display: flex;
+    padding-top: 20px;
+    font-size: 18px;
+    justify-content: space-between;
+}
+#typeAddress>div{
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centerRight{
+    width: 44%;
+    height: 500px;
+    border: 1px solid lightgray; 
+}
